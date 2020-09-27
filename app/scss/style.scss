@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'corpid-regular';
+  src:  url('../fonts/corpid/corpid-regular/corpid-regular.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/corpid/corpid-regular/corpid-regular.otf')  format('opentype'),
+	    url('../fonts/corpid/corpid-regular/corpid-regular.woff') format('woff'),
+	    url('../fonts/corpid/corpid-regular/corpid-regular.ttf')  format('truetype'),
+	    url('../fonts/corpid/corpid-regular/corpid-regular.svg#corpid-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'corpid-light';
+  src:  url('../fonts/corpid/corpid-light/corpid-light.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/corpid/corpid-light/corpid-light.otf')  format('opentype'),
+	    url('../fonts/corpid/corpid-light/corpid-light.woff') format('woff'),
+	    url('../fonts/corpid/corpid-light/corpid-light.ttf')  format('truetype'),
+	    url('../fonts/corpid/corpid-light/corpid-light.svg#corpid-light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'corpid-bold';
+  src:  url('../fonts/corpid/corpid-bold/corpid-bold.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/corpid/corpid-bold/corpid-bold.otf')  format('opentype'),
+	    url('../fonts/corpid/corpid-bold/corpid-bold.woff') format('woff'),
+	    url('../fonts/corpid/corpid-bold/corpid-bold.ttf')  format('truetype'),
+	    url('../fonts/corpid/corpid-bold/corpid-bold.svg#corpid-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Core variables and mixins
+@import "components/vars";
+
+@import "bootstrap/normalize";
+
+@import "components/body";
+
+@import "components/header";
+
+
+.layout{
+  	flex: 1 0 auto;
+}
+
+
+
+.wrapper{
+
+}
+.container-fluid{
+	max-width: 1346px;
+	position: relative;
+	width: 100%;
+}
+
+
+.page-content{
+
+}
+
+
+
+
+
+
+
+@import "components/workarea";
+
+@import "components/footer";
+
+
+
+
+@import "components/media";
+
+
+
+
+
