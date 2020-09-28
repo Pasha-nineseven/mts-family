@@ -9,7 +9,242 @@
 
 
 //MEDIA
-@media screen and (max-width: 1400px){
-
+@media screen and (max-width: 1280px){
+	.container-fluid {
+	    padding: 0 20px;
+	}
+	.benefits__slider .slick-arrow.slick-prev {
+	    left: 20px;
+	}
+	.benefits__slider .slick-arrow.slick-next {
+	    right: 20px;
+	}
 }
 
+@media screen and (max-width: 1200px){
+	.benefits__info {
+	    padding: 60px 33px 70px 40px;
+	}
+	.benefits__slider .slick-dots {
+	    padding-left: calc(50% + 40px);
+	}
+}
+
+@media screen and (max-width: 1150px){
+	.top-nav {
+	    flex: 1;
+	    justify-content: space-between;
+	}
+	.top-nav__link{
+		margin-right: 0;
+	}
+	.logo{
+		margin-right: 25px;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.service__item.m-lg .service__in,
+	.service__item.m-md .service__in{
+		padding: 20px; 
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.top-links__item {
+	    margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.page-footer-top{
+		flex-wrap:wrap;
+		justify-content: flex-start;
+	}
+	.page-footer__item{
+		width: 100%!important;
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.page-footer__title {
+	    margin-bottom: 10px;
+	}
+	.benefits__txt{
+		padding-right: 55px;
+	}
+	.cost__list,
+	.cost__add,
+	.cost__btn{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.service-add {
+	    flex-wrap: wrap;
+	    .check-wrap{
+	    	width: 100%;
+    		margin-bottom: 20px;
+	    }
+	}
+	.service__item .disable-form__item {
+	    font-size: 34px;
+	    line-height: 34px;
+	}
+	.service__item input.disable-form__input {
+	    font-size: 36px;
+	    line-height: 38px;
+	}
+	.service__item input.disable-form__input.m-triple {
+	    width: 55px;
+	}
+	.service__item input.disable-form__input.m-double {
+	    width: 35px;
+	}
+	.service__item {
+	    padding-right: 15px;
+	    margin-bottom: 15px;
+	}
+	.service__wrap{
+		margin-right: -15px;
+	}
+	.totally {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.logo{
+		width: 109px;
+    	height: 27px;
+	}
+	.top-nav,
+	.top{
+		display: none;
+	}
+	.menu-btn {
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.page-header__wrap {
+	    justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.benefits__item{
+		flex-wrap:wrap;
+	}
+	.benefits__img{
+		width: 100%;
+	}
+	.benefits__info{
+		width: 100%;
+		padding: 20px 20px 50px 20px;
+	}
+	.benefits__slider .slick-dots {
+	    padding-left: 0;
+	    bottom: 20px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.benefits__slider .slick-arrow{
+		top: 180px;
+		transform: none;
+	}
+	.benefits__txt {
+    	padding-right: 0;
+	    max-width: 100%;
+	}
+	.service__item.m-md,
+	.service__item.m-lg{
+	    width: 100%;
+	    padding-right: 0;
+	    overflow: hidden;
+	}
+	.service__wrap{
+		margin-right: 0;
+	}
+	.service__item.m-lg .service__title {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.main-top {
+	    padding: 40px 0;
+	}
+	.main-top__wrap,
+	.main-top__links{
+	    padding-left: 45px;
+	}
+	.main-top__wrap h2:before {
+	    width: 45px;
+	    height: 45px;
+	    background-size: contain;
+	    left: -51px;
+	    top: 1px;
+	}
+	.workarea h2{
+		font-size: 36px;
+	}
+	.workarea h3{
+		font-size: 28px;
+	}
+	.main-top__info {
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+	.main-top__links {
+	    padding-top: 40px;
+	}
+	.cost h2:before {
+	    background-size: contain;
+	    top: 5px;
+	    width: 110px;
+	    height: 110px;
+	}
+	.btn{
+		font-size: 18px;
+	}
+	.btn-google{
+		margin-right: 10px;
+	}
+	.cost-add__top,
+	.cost-add{
+		font-size: 14px;
+	}
+	.cost__pre {
+	    font-size: 16px;
+	    line-height: 20px;
+	    padding-right: 10px;
+	}
+	.cost__tick {
+	    width: 110px;
+	}
+	.cost__add{
+		margin-bottom: 20px;
+	}
+	.benefits {
+    	padding: 30px 0;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	.benefits__img {
+	    min-height: 260px;
+	}
+	.benefits__slider .slick-arrow{
+		top: 100px;
+	}
+	.disable-form__num{
+		flex-wrap:wrap;
+		justify-content: center;
+	}
+	.disable-form__submit{
+		display: block;
+		width: 100%;
+		    margin-left: 0;
+    	margin-top: 20px;
+	}
+}

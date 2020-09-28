@@ -32,6 +32,7 @@ gulp.task('scripts', function(){
         'app/libs/flexibility/flexibility.js',
         'app/libs/fancybox/jquery.fancybox.js',
         'app/libs/slick/slick.min.js',
+        'app/libs/mask/jquery.maskedinput.min.js',
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
