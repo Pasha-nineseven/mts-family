@@ -79,8 +79,27 @@ $(document).ready(function() {
 
     $('.btn-close').click(function() {
         parent.$.fancybox.close();
-    })
+    });
 
+
+    //AGREE-CHECK
+    $("#agree1").change(function() {
+        if(this.checked) {
+            $('.service-add').find('.service__submit').removeClass('disabled');
+        } else{
+            $('.service-add').find('.service__submit').addClass('disabled'); 
+        }
+    });
+    if($("#agree1").is(":checked")) {  
+        $('.service-add').find('.service__submit').removeClass('disabled');
+    } else{
+       $('.service-add').find('.service__submit').addClass('disabled'); 
+    }
+
+
+
+    $(".js-phone-input").mask("99 999 99 99");
+    $(".js-code-input").mask("9 9 9 9");
 });
 
 
@@ -108,3 +127,4 @@ function validate(evt) {
     if(theEvent.preventDefault) theEvent.preventDefault();
   }
 }
+

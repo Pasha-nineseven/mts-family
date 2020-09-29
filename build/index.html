@@ -297,16 +297,7 @@
 											<div class="disable-form__num">
 												<div class="disable-form__item">+375</div>
 												<div class="disable-form__item">
-													<input type="tel" class="disable-form__input m-double" placeholder="00" size="2" onkeypress="validate(event)">
-												</div>
-												<div class="disable-form__item">
-													<input type="tel" class="disable-form__input m-triple" placeholder="000" size="3" onkeypress="validate(event)">
-												</div>
-												<div class="disable-form__item">
-													<input type="tel" class="disable-form__input m-double" placeholder="00" size="2" onkeypress="validate(event)">
-												</div>
-												<div class="disable-form__item">
-													<input type="tel" class="disable-form__input m-double" placeholder="00" size="2" onkeypress="validate(event)">
+													<input type="tel" class="disable-form__input js-phone-input" placeholder="00 000 00 00"  onkeypress='validate(event)' >
 												</div>
 											</div>
 										</div>
@@ -319,6 +310,11 @@
 												</label>
 											</div>
 											<a href="#code" class="service__submit js-popup-inline">Подключить</a>
+											<script>
+												
+
+												
+											</script>	
 										</div>
 									</div>
 								</form>
@@ -388,14 +384,6 @@
 								</div>
 							</div>
 						</div>
-
-
-						<a href="#popup-test1" class="btn js-popup-inline">Попап1</a><br><br>
-						<a href="#popup-test2" class="btn js-popup-inline">Попап2</a><br><br>
-						<a href="#popup-test3" class="btn js-popup-inline">Попап3</a><br><br>
-						<a href="#popup-test4" class="btn js-popup-inline">Попап4</a><br><br>
-						<a href="#popup-test5" class="btn js-popup-inline">Попап5</a><br><br>
-						<a href="#popup-test6" class="btn js-popup-inline">Попап6</a><br><br>
 					</div>
 				</div>
 
@@ -411,16 +399,7 @@
 									<div class="disable-form__num">
 										<div class="disable-form__item">+375</div>
 										<div class="disable-form__item">
-											<input type="tel" class="disable-form__input m-double" placeholder="00" size="2"  onkeypress='validate(event)' >
-										</div>
-										<div class="disable-form__item">
-											<input type="tel" class="disable-form__input m-triple" placeholder="000" size="3"  onkeypress='validate(event)' >
-										</div>
-										<div class="disable-form__item">
-											<input type="tel" class="disable-form__input m-double" placeholder="00" size="2"  onkeypress='validate(event)' >
-										</div>
-										<div class="disable-form__item">
-											<input type="tel" class="disable-form__input m-double" placeholder="00" size="2"  onkeypress='validate(event)' >
+											<input type="tel" class="disable-form__input js-phone-input" placeholder="00 000 00 00"  onkeypress='validate(event)' >
 										</div>
 										<a href="#code" class="disable-form__submit js-popup-inline">Отключить</a>
 									</div>
@@ -486,17 +465,8 @@
 		    		<div class="code__wrap">
 			    		<div class="disable-form__num">
 			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
+								<input type="tel" class="disable-form__input m-code js-code-input" placeholder="0 0 0 0"  onkeypress='validate(event)' >
+							</div>
 			    		</div>
 			    		<a href="#" class="service__submit">Подтвердить</a>
 		    		</div>
@@ -506,87 +476,6 @@
 		    	Не получили новый код? <br>
 		    	<a href="#">Отправить ещё раз</a>
 		    </div>
-		</div>
-
-
-
-		<!-- test -->
-		<div id="popup-test1" class="popup m-info dnone">
-		    <div class="popup-title">Подключить услугу</div>
-		    <div class="popup__add">
-		    	Для подтверждения подключения услуги «Семья здесь» введите код, полученный по SMSи
-		    </div>
-		    <div class="code">
-		    	<div class="code__pre">
-		    		Код из SMS
-		    	</div>
-		    	<form action="#" method="post">
-		    		<div class="code__wrap">
-			    		<div class="disable-form__num">
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    			<div class="disable-form__item">
-			    				<input type="tel" class="disable-form__input m-single" placeholder="0" size="" onkeypress="validate(event)">
-			    			</div>
-			    		</div>
-			    		<a href="#" class="service__submit">Подтвердить</a>
-		    		</div>
-		    	</form>
-		    </div>
-		    <div class="nosend">
-		    	При подключении услуги впервые — 14 дней бесплатно,<br>
-		    	далее 3,50 руб. в месяц
-		    </div>
-		</div>
-
-		<div id="popup-test2" class="popup m-info m-bg dnone" style="background-image: url(img/content/error1.png);">
-		    <div class="popup-title">Ошибка</div>
-		    <div class="popup__add">
-		    	Услуга не может быть подключена, так как недостаточно<br> средств на счету
-		    </div>
-		    <a href="#" class="btn-close">Закрыть</a>
-		</div>
-		<div id="popup-test3" class="popup m-info m-bg dnone"  style="background-image: url(img/content/error2.png);">
-		    <div class="popup-title">Ошибка</div>
-		    <div class="popup__add">
-		    	Услуга не может быть добавлена, указанный номер телефона<br> находится в блокировке
-		    </div>
-		    <a href="#" class="btn-close">Закрыть</a>
-		</div>
-
-		<div id="popup-test4" class="popup m-info m-img dnone">
-			<div class="popup__img">
-				<img src="img/content/noinput.png" alt="">
-			</div>
-		    <div class="popup-title">Неверный номер телефона</div>
-		    <div class="popup__add">
-		    	Формат или номер телефона введен неверно. Попробуйте еще раз
-		    </div>
-		    <a href="#" class="btn-close">Закрыть</a>
-		</div>
-
-		<div id="popup-test5" class="popup m-info m-bg dnone"  style="background-image: url(img/content/error3.png);">
-		    <div class="popup-title">Ошибка</div>
-		    <div class="popup__add">
-		    	Ошибка на сервере. Попробуйте позже!
-		    </div>
-		    <a href="#" class="btn-close">Закрыть</a>
-		</div>
-
-
-		<div id="popup-test6" class="popup m-info m-bg dnone"  style="background-image: url(img/content/family.png);">
-		    <div class="popup-title">Спасибо</div>
-		    <div class="popup__add">
-		    	Запрос на подключение услуги успешно отправлен
-		    </div>
-		    <a href="#" class="btn-close">Закрыть</a>
 		</div>
 
 		<script src="js/libs.min.js"></script>

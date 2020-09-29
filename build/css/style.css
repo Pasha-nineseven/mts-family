@@ -1002,11 +1002,11 @@ input.disable-form__input {
   border: 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
   font-size: 33px;
-  padding-top: 0;
-  background: transparent;
-  margin-bottom: 2px; }
+  line-height: 26px;
+  padding: 0;
+  background: transparent; }
   .workarea input.disable-form__input {
-    width: auto;
+    width: 173px;
     display: inline-block;
     padding: 0; }
   input.disable-form__input.m-double {
@@ -1092,7 +1092,8 @@ input.disable-form__input {
     -o-font-feature-settings: 'lnum'; }
   .service__item input.disable-form__input {
     font-size: 47px;
-    line-height: 40px; }
+    line-height: 40px;
+    width: 248px; }
     .service__item input.disable-form__input.m-double {
       width: 47px; }
     .service__item input.disable-form__input.m-triple {
@@ -1244,6 +1245,9 @@ input.disable-form__input {
   transition: all .3s ease; }
   .service__submit:hover {
     background: #cc061a; }
+  .service__submit.disabled {
+    pointer-events: none;
+    opacity: 0.5; }
 
 .dnone {
   display: none; }
@@ -1311,6 +1315,8 @@ input.disable-form__input {
     padding: 0; }
     .code input.disable-form__input.m-single {
       width: 17px; }
+    .code input.disable-form__input.m-code {
+      width: 91px; }
   .code .disable-form__num {
     margin-right: 24px; }
 
@@ -1351,6 +1357,9 @@ input.disable-form__input {
   .popup__img img {
     display: block;
     max-width: 100%; }
+
+.fancybox-active {
+  height: 100%; }
 
 .page-footer {
   -webkit-flex-shrink: 0;
@@ -1404,7 +1413,13 @@ input.disable-form__input {
 .page-footer__phone {
   font-size: 20px;
   color: #333333;
-  font-family: 'corbid-regular'; }
+  font-family: 'corbid-regular';
+  font-variant-numeric: lining-nums;
+  font-feature-settings: 'lnum';
+  -moz-font-feature-settings: 'lnum=1';
+  -ms-font-feature-settings: 'lnum';
+  -webkit-font-feature-settings: 'lnum';
+  -o-font-feature-settings: 'lnum'; }
 
 .page-footer__title {
   margin-bottom: 22px; }
@@ -1483,7 +1498,8 @@ input.disable-form__input {
     line-height: 34px; }
   .service__item input.disable-form__input {
     font-size: 36px;
-    line-height: 38px; }
+    line-height: 38px;
+    width: 189px; }
   .service__item input.disable-form__input.m-triple {
     width: 55px; }
   .service__item input.disable-form__input.m-double {
