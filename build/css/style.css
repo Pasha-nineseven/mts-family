@@ -693,10 +693,14 @@ textarea, input {
 
 .main-top__wrap {
   padding-left: 93px; }
-  .main-top__wrap h2 {
+  .main-top__wrap h1 {
+    margin: 0;
+    font-family: 'corbid-bold';
+    font-size: 50px;
+    font-weight: normal;
     position: relative;
     margin-bottom: 15px; }
-    .main-top__wrap h2:before {
+    .main-top__wrap h1:before {
       content: "";
       display: inline-block;
       width: 72px;
@@ -1316,7 +1320,7 @@ input.disable-form__input {
     .code input.disable-form__input.m-single {
       width: 17px; }
     .code input.disable-form__input.m-code {
-      width: 91px; }
+      width: 118px; }
   .code .disable-form__num {
     margin-right: 24px; }
 
@@ -1569,13 +1573,14 @@ input.disable-form__input {
   .main-top__wrap,
   .main-top__links {
     padding-left: 45px; }
-  .main-top__wrap h2:before {
+  .main-top__wrap h1:before {
     width: 45px;
     height: 45px;
     background-size: contain;
     left: -51px;
     top: 1px; }
-  .workarea h2 {
+  .workarea h2,
+  .main-top__wrap h1{
     font-size: 36px; }
   .workarea h3 {
     font-size: 28px; }

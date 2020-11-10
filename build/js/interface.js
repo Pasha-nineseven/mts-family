@@ -58,6 +58,7 @@ $(document).ready(function() {
         infobar: false,
         toolbar  : false,
         smallBtn: true,
+        touch: false,
         buttons: [
 
         ],
@@ -99,7 +100,7 @@ $(document).ready(function() {
 
 
     $(".js-phone-input").mask("99 999 99 99");
-    $(".js-code-input").mask("9 9 9 9");
+    $(".js-code-input").mask("9 9 9 9 9");
 });
 
 
