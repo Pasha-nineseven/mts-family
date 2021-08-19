@@ -1,0 +1,46 @@
+.ussd{
+    padding: 40px 0 30px;
+    background: #fff;
+    overflow: hidden;
+}
+.ussd h3{
+    text-align: center;
+}
+.page-content {
+    padding-bottom: 0;
+}
+.page-footer__wrap {
+    border-top: 0;
+}
+.disable{
+    padding-bottom: 40px;
+}
+.btn-google,
+.l-google{
+    width: 136px;
+    height: 40px;
+    background: url(../img/svg/btn-google-bg.svg) no-repeat;
+}
+
+.btn-appstore,
+.l-appstore{
+    width: 120px;
+    height: 40px;
+    background: url(../img/svg/btn-appstore-bg.svg) no-repeat;
+}
+.disable-form__item.m-bold{
+    font-weight:bold;
+    color: #333333;
+}
+.m-ussd{
+    margin-bottom: 40px;
+}
+.ussd-request{
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.ussd-message{
+    text-align: center;
+}
